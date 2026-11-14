@@ -11,8 +11,8 @@ select **Deploy from a branch**, then choose the branch containing the site
 and the `/ (root)` folder. Webcam images are hosted by their respective
 providers and may be unavailable if a provider is offline or blocks requests.
 # surfcheck
-collects resources need for surf check on one page
-Here are the pictures
+
+Webcam links
 
 https://www.bolaerne.no/wp-content/webcam/bolaerennord.jpg
 
