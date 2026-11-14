@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A collection of coastal webcam images for checking the conditions.">
+  <title>Surfcheck</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, sans-serif;
+      color: #172f39;
+      background: #f2f6f5;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1200px; margin: auto; padding: 3rem 1.25rem 4rem; }
+    header { margin-bottom: 2rem; }
+    h1 { margin: 0 0 .4rem; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0; color: #49616a; line-height: 1.5; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 1.25rem; }
+    article { overflow: hidden; background: white; border: 1px solid #dce7e5; border-radius: .75rem; }
+    img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #e5eeec; }
+    .caption { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1rem; }
+    h2 { margin: 0; font-size: 1.1rem; }
+    a { color: #075d70; }
+    a:focus-visible { outline: 3px solid #075d70; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Surfcheck</h1>
+      <p>Coastal webcams, all in one place. Refresh the page to check for updated images.</p>
+    </header>
+    <section class="gallery" aria-label="Webcams">
+      <article>
+        <img src="https://www.bolaerne.no/wp-content/webcam/bolaerennord.jpg" alt="Bolærne Nord webcam">
+        <div class="caption"><h2>Bolærne Nord</h2><a href="https://www.bolaerne.no/wp-content/webcam/bolaerennord.jpg" aria-label="Open Bolærne Nord image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://www.aprova.no/kj/webcam/Fevik02.jpg" alt="Fevik webcam">
+        <div class="caption"><h2>Fevik</h2><a href="https://www.aprova.no/kj/webcam/Fevik02.jpg" aria-label="Open Fevik image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://web.selarvik.no/fjorden1/jpgwebcam01000M.jpg" alt="Selarvik webcam">
+        <div class="caption"><h2>Selarvik</h2><a href="https://web.selarvik.no/fjorden1/jpgwebcam01000M.jpg" aria-label="Open Selarvik image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://tenvik.info/webcam/verdensende.jpg" alt="Verdens Ende webcam">
+        <div class="caption"><h2>Verdens Ende</h2><a href="https://tenvik.info/webcam/verdensende.jpg" aria-label="Open Verdens Ende image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://www.tenvik.info/webcam/fulehuknord.jpg" alt="Fulehuk Nord webcam">
+        <div class="caption"><h2>Fulehuk Nord</h2><a href="https://www.tenvik.info/webcam/fulehuknord.jpg" aria-label="Open Fulehuk Nord image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://hm5njym7e4ki5g0o.public.blob.vercel-storage.com/webcam/WebCam3.jpg" alt="Webcam 3">
+        <div class="caption"><h2>Webcam 3</h2><a href="https://hm5njym7e4ki5g0o.public.blob.vercel-storage.com/webcam/WebCam3.jpg" aria-label="Open Webcam 3 image">Open image</a></div>
+      </article>
+      <article>
+        <img src="https://www.yr.no/webcams/1/2000/langesund/2.jpg" alt="Langesund webcam">
+        <div class="caption"><h2>Langesund</h2><a href="https://www.yr.no/webcams/1/2000/langesund/2.jpg" aria-label="Open Langesund image">Open image</a></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
